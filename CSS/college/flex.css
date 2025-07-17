@@ -1,0 +1,19 @@
+.parent{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    /* align-items: center;
+    justify-content: center; */
+    /* justify-content: space-between; */
+    /* padding: 5px; */
+    /* gap: 5px; */
+    /* padding-top: 2px;
+    padding-bottom: 3px; */
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+}
+img{
+    height: 100px;
+    width: 175px;
+}

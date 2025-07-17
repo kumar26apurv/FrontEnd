@@ -1,0 +1,25 @@
+
+h1{
+    color: red;
+}
+.middle{
+    color: yellowgreen;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+#a{
+   color: purple;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic; 
+}
+h2{
+    color: aquamarine;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 50px;
+    font-style: oblique;
+}

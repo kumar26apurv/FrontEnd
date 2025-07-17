@@ -1,0 +1,28 @@
+#container{
+    height: 600px;
+    width: 900;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+}
+h1{
+    text-align: center;
+}
+#org{
+    align-self: start;
+    flex-basis: 10000px;
+    flex-grow: 10;
+}
+#container div{
+    height: 125px;
+    width: 200px;
+    color: white;
+    text-align: center;
+
+}

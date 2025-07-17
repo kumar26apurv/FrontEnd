@@ -1,0 +1,27 @@
+/* .parent{
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    border-color: black;
+    border-style: dotted;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 90px;
+}
+p{
+    border: 2px solid red;
+    padding: 10px;
+    padding-left: 150px;
+    margin: 50px;
+    border-radius: 30%;
+    word-spacing: 50px;
+    color: palevioletred;
+} */
+ .parent{
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 150px;
+    height: 100px;
+    width: 1500px;
+    border: 2px solid red;
+ }

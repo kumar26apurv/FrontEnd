@@ -1,0 +1,44 @@
+.box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+img {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  /* transition: filter 0.5s ease; */
+}
+.mask {
+  /* border: 2px solid red; */
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(128, 128, 127, 0);
+  /* transition: background-color 0.5s ease; */
+  z-index: 2;
+}
+.buy-btn {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  background-color: #ff6600;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0;
+}
+.box:hover img {
+  filter: blur(2px);
+}
+.box:hover .mask {
+  background-color: rgb(128, 128, 127, 0);
+}
+.box:hover .buy-btn {
+  opacity: 1;
+}

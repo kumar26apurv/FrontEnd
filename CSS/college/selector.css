@@ -1,0 +1,21 @@
+nav a{
+    color:yellowgreen;
+    background-color: black;
+    font-size: xx-large;
+    text-decoration: none;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    font-style: oblique;
+}
+
+
+nav ul li{
+    color: purple;
+    list-style-type: none;
+}
+.box{
+    background-color: grey;
+    height: 500px;
+    width: 500px;
+}
